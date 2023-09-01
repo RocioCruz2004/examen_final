@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600:900&family=Roboto+Mono&display=swap');
+
+/*font-family: 'Poppins', sans-serif; 300 400 600 900
+font-family: 'Roboto Mono', monospace; 400*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-weight: 900;
+    text-align: center;
+}
+h2{
+    font-weight: 600;
+}
+p{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    background-color: #9EEB3C;
+    padding: 20px;
+}
+header ul{
+    display: block;
+    column-count: 4;
+    justify-content: space-around;
+}
+header img {
+    max-width: 120px;
+    max-height: 120px;
+}
+.quienes-somos{
+    padding: 20px;
+}
+.quienes-somos h1{
+    line-height: 55px;
+    font-size: 35px;
+}
+.quienes-somos  p{
+    line-height: 25px;
+    font-size: 20px;
+}
+.quienes-somos video{
+    max-width: 600px;
+    max-height: 600px;
+}
+.quienes-somos ul{
+    display: block;
+    column-count: 2;
+    justify-content: space-around;
+}
+.noticias-estadisticas ul{
+    display: block;
+    column-count: 2;
+    justify-content: space-between;
+}
+.noticias{
+    padding: 20px;
+    background-color: #C5EF8E;
+    border-radius: 12px;
+    max-height: 60px;
+
+}
+.estadisticas{
+    padding: 20px;
+    background-color: #C5EF8E;
+    border-radius: 12px;
+    max-height: 25%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+}
